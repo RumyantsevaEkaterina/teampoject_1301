@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(38, 64);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(344, 92);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Решить квадратное уравнение";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.BackgroundImage = global::teamproject_1301.Properties.Resources.notebook_texture2465;
+            this.ClientSize = new System.Drawing.Size(1131, 672);
+            this.Controls.Add(this.button1);
+            this.Name = "Form1";
+            this.Text = "Математический помощник";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
     }
 }
 
