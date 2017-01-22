@@ -24,7 +24,24 @@ namespace teamproject_1301
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Form2 kvadr = new Form2();
+            kvadr.Hide();
+            kvadr.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
