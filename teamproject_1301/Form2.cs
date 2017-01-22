@@ -43,6 +43,14 @@ namespace teamproject_1301
             float b = float.Parse(textBox3.Text);
             float c = float.Parse(textBox4.Text);
             var d = b * b - 4 * a * c;
+            if (d<0)
+                {
+                MessageBox.Show("Дискриминант меньше нуля! Корней нет.");
+                    }
+            if (d == 0)
+            {
+                MessageBox.Show("Дискриминант равен 0.");
+            }
             var x1 = (-b - Math.Sqrt(d)) / 2 * a;
             var x2 = (-b + Math.Sqrt(d)) / 2 * a;
             textBox5.Text = Convert.ToString(d);

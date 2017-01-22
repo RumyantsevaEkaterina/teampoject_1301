@@ -40,7 +40,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(344, 92);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Решить квадратное уравнение";
+            this.button1.Text = "Квадратное уравнение";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -50,7 +50,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(344, 92);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Задача 2";
+            this.button2.Text = "Система уравнений с двумя неизвестными";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -79,7 +79,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::teamproject_1301.Properties.Resources.notebook_texture2465;
-            this.ClientSize = new System.Drawing.Size(1131, 672);
+            this.ClientSize = new System.Drawing.Size(1075, 672);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
