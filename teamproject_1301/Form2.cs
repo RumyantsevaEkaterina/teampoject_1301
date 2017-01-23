@@ -12,6 +12,8 @@ namespace teamproject_1301
 {
     public partial class Form2 : Form
     {
+        private readonly object errorProvider1;
+
         public Form2()
         {
             InitializeComponent();
@@ -43,6 +45,7 @@ namespace teamproject_1301
             float a = float.Parse(textBox2.Text);
             float b = float.Parse(textBox3.Text);
             float c = float.Parse(textBox4.Text);
+
             var d = b * b - 4 * a * c;
            
             if (d<0)
@@ -69,5 +72,7 @@ namespace teamproject_1301
         {
 
         }
+
+        
     }
 }

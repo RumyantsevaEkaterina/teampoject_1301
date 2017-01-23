@@ -32,7 +32,7 @@ namespace teamproject_1301
 
             if ((a * q - b * d) == 0)
             {
-                MessageBox.Show("Внимание! Деление на 0");
+                MessageBox.Show("Внимание! Уравнение не имеет решения");
             }
 
             textBox7.Text = Convert.ToString(x);
