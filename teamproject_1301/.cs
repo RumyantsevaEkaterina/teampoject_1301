@@ -32,16 +32,14 @@ namespace teamproject_1301
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 syst = new Form3();
-            syst.Hide();
-            syst.Show();
+            Form3 urav = new Form3();
+            urav.Hide();
+            urav.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form3 syst = new Form3();
-            syst.Hide();
-            syst.Show();
+         
         }
 
         private void button4_Click(object sender, EventArgs e)
