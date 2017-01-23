@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(45, 37);
+            this.button1.Location = new System.Drawing.Point(55, 26);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(344, 92);
             this.button1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(45, 189);
+            this.button2.Location = new System.Drawing.Point(55, 145);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(344, 92);
             this.button2.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(45, 343);
+            this.button3.Location = new System.Drawing.Point(55, 272);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(344, 92);
             this.button3.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(45, 501);
+            this.button4.Location = new System.Drawing.Point(55, 386);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(344, 92);
             this.button4.TabIndex = 3;
@@ -76,15 +76,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::teamproject_1301.Properties.Resources.notebook_texture2465;
-            this.ClientSize = new System.Drawing.Size(1075, 672);
+            this.ClientSize = new System.Drawing.Size(878, 494);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Математический помощник";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

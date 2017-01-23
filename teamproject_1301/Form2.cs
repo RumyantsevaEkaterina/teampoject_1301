@@ -57,5 +57,15 @@ namespace teamproject_1301
             textBox6.Text = Convert.ToString(x1);
             textBox7.Text = Convert.ToString(x2);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
