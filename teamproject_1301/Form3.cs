@@ -28,6 +28,10 @@ namespace teamproject_1301
             float f = float.Parse(textBox6.Text);
 
            var x = (a * f - c * d) / (a * q - b * d);
+            if ((a * q - b * d) == 0)
+            {
+                MessageBox.Show("Внимание! Деление на 0");
+            }
            var y = (c * q - b * f) / (a * q - b * d);
 
             textBox7.Text = Convert.ToString(x);
