@@ -39,10 +39,12 @@ namespace teamproject_1301
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             float a = float.Parse(textBox2.Text);
             float b = float.Parse(textBox3.Text);
             float c = float.Parse(textBox4.Text);
             var d = b * b - 4 * a * c;
+           
             if (d<0)
                 {
                 MessageBox.Show("Дискриминант меньше нуля! Корней нет.");
