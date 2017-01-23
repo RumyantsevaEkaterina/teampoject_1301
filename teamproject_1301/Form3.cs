@@ -43,5 +43,10 @@ namespace teamproject_1301
         {
 
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
