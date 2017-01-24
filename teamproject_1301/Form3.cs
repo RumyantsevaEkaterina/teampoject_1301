@@ -56,49 +56,49 @@ namespace teamproject_1301
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && !((e.KeyChar == ',') && (textBox1.Text.IndexOf(",") == -1)))
             {
-                e.Handled = true;
+                if (e.KeyChar != (char)Keys.Back) e.Handled = true;
             }
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && !((e.KeyChar == ',') && (textBox2.Text.IndexOf(",") == -1)))
             {
-                e.Handled = true;
+                if (e.KeyChar != (char)Keys.Back) e.Handled = true;
             }
         }
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && !((e.KeyChar == ',') && (textBox3.Text.IndexOf(",") == -1)))
             {
-                e.Handled = true;
+                if (e.KeyChar != (char)Keys.Back) e.Handled = true;
             }
         }
 
         private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && !((e.KeyChar == ',') && (textBox4.Text.IndexOf(",") == -1)))
             {
-                e.Handled = true;
+                if (e.KeyChar != (char)Keys.Back) e.Handled = true;
             }
         }
 
         private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && !((e.KeyChar == ',') && (textBox5.Text.IndexOf(",") == -1)))
             {
-                e.Handled = true;
+                if (e.KeyChar != (char)Keys.Back) e.Handled = true;
             }
         }
 
         private void textBox6_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != 8 && !((e.KeyChar == ',') && (textBox6.Text.IndexOf(",") == -1)))
             {
-                e.Handled = true;
+                if (e.KeyChar != (char)Keys.Back) e.Handled = true;
             }
         }
     }
